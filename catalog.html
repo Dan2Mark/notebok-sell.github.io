@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="shortcut icon" type="image/png" href="img/logo_512.png"/>
+    <title>Notebook Sell</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+  <body class="body">
+    <header>
+      <button class="openbtn" onclick="openNav()">&#9776;</button>
+         <a href="index.html">
+          <div>
+            <div class="box-logo">
+              <img src="img/logo.png" class="logo">
+         	  </div>
+            <img src="img/logo_512.png" class="logo-1">
+          </div>
+        </a>
+        <div class="search_s">
+           <form>
+  	          <input type="text" placeholder="Поиск...">
+              <button type="submit"></button>
+          </form>
+     	  </div>
+        <nav>
+           <a href="" class="log">Вход</a>
+        </nav>
+    </header>
+    <div class="main">
+      <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ol id="sidetext" style="list-style-type:none;" class = "l_menu">
+              <li><div class="tit">Процессор</div></li>
+              <li><label class="cont_check">Apple M series<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">Intel Core i9<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">Intel Core i7<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">Intel Core i5<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">Intel Core i3<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <br>
+              <li><div class="tit">ОЗУ, Гб</div></li>
+              <li><label class="cont_check">32<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">20-24<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">16<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">8-12<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check"><8<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <br>
+              <li><div class="tit">Производитель</div></li>
+              <li><label class="cont_check">Acer<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">Asus<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">HP<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">Xiaomi<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">Apple<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <br>
+              <li><div class="tit">Тип ноутбука</div></li>
+              <li><label class="cont_check">Универсальный<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">Геймерский<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">Для бизнеса<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+            </ol>
+          </div>
+      <div class="row mar-0">
+        <div class="left-menu col-md-3 shadow">
+            <ol id="sidetext" style="list-style-type:none;" class = "l_menu">
+              <br><br>
+              <li><div class="tit">Процессор</div></li>
+              <li><label class="cont_check">Apple M series<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">Intel Core i9<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">Intel Core i7<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">Intel Core i5<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">Intel Core i3<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <br>
+              <li><div class="tit">ОЗУ, Гб</div></li>
+              <li><label class="cont_check">32<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">20-24<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">16<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">8-12<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check"><8<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <br>
+              <li><div class="tit">Производитель</div></li>
+              <li><label class="cont_check">Acer<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">Asus<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">HP<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">Xiaomi<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">Apple<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <br>
+              <li><div class="tit">Тип ноутбука</div></li>
+              <li><label class="cont_check">Универсальный<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">Геймерский<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+              <li><label class="cont_check">Для бизнеса<input type="checkbox"> <span class="checkmark"> </span> </label> </li>
+            </ol>
+
+         </div>
+        <div class="main-menu col-md-9">
+          <div class="row">
+             <div class="col-md-4">
+              <div class="item_d rounded_s">
+                <a href="" style="text-decoration: none"> 
+                  <img src="img/nb-2.jpg" class="img_nb">
+                  <div class="name">Ноутбук Acer Aspire 5 A515-55G (NX.HZFEU.009)</div>
+                  <div class="stock">19 000₴</div>
+                  <div class="price">18 000₴</div>
+                  <div class="descr">Экран 15.6" IPS (1920x1080) / Intel Core i5-1035G1 (1.0 - 3.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / nVidia GeForce MX350, 2 ГБ</div>
+                </a>
+              </div> 
+            </div>             <div class="col-md-4">
+              <div class="item_d rounded_s">
+                <a href="" style="text-decoration: none"> 
+                  <img src="img/nb-5.jpg" class="img_nb">
+                  <div class="name">Ноутбук Acer Aspire 5 A515-55G (NX.HZFEU.009)</div>
+                  <div class="stock">19 000₴</div>
+                  <div class="price">18 000₴</div>
+                  <div class="descr">Экран 15.6" IPS (1920x1080) / Intel Core i5-1035G1 (1.0 - 3.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / nVidia GeForce MX350, 2 ГБ</div>
+                </a>
+              </div> 
+            </div>
+            <div class="col-md-4">
+              <div class="item_d rounded_s">
+                <a href="" style="text-decoration: none"> 
+                  <img src="img/nb-1.png" class="img_nb">
+                  <div class="name">Ноутбук Acer Aspire 5 A515-55G (NX.HZFEU.009)</div>
+                  <div class="stock">19 000₴</div>
+                  <div class="price">18 000₴</div>
+                  <div class="descr">Экран 15.6" IPS (1920x1080) / Intel Core i5-1035G1 (1.0 - 3.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / nVidia GeForce MX350, 2 ГБ</div>
+                </a>
+              </div> 
+            </div>
+          </div>
+                    <div class="row">
+             <div class="col-md-4">
+              <div class="item_d rounded_s">
+                <a href="" style="text-decoration: none"> 
+                  <img src="img/nb-4.jpg" class="img_nb">
+                  <div class="name">Ноутбук Acer Aspire 5 A515-55G (NX.HZFEU.009)</div>
+                  <div class="stock">19 000₴</div>
+                  <div class="price">18 000₴</div>
+                  <div class="descr">Экран 15.6" IPS (1920x1080) / Intel Core i5-1035G1 (1.0 - 3.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / nVidia GeForce MX350, 2 ГБ</div>
+                </a>
+              </div> 
+            </div>             <div class="col-md-4">
+              <div class="item_d rounded_s">
+                <a href="" style="text-decoration: none"> 
+                  <img src="img/nb-1.png" class="img_nb">
+                  <div class="name">Ноутбук Acer Aspire 5 A515-55G (NX.HZFEU.009)</div>
+                  <div class="stock">19 000₴</div>
+                  <div class="price">18 000₴</div>
+                  <div class="descr">Экран 15.6" IPS (1920x1080) / Intel Core i5-1035G1 (1.0 - 3.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / nVidia GeForce MX350, 2 ГБ</div>
+                </a>
+              </div> 
+            </div>
+            <div class="col-md-4">
+              <div class="item_d rounded_s">
+                <a href="" style="text-decoration: none"> 
+                  <img src="img/nb-2.jpg" class="img_nb">
+                  <div class="name">Ноутбук Acer Aspire 5 A515-55G (NX.HZFEU.009)</div>
+                  <div class="stock">19 000₴</div>
+                  <div class="price">18 000₴</div>
+                  <div class="descr">Экран 15.6" IPS (1920x1080) / Intel Core i5-1035G1 (1.0 - 3.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / nVidia GeForce MX350, 2 ГБ</div>
+                </a>
+              </div> 
+            </div>
+          </div>
+                    <div class="row">
+             <div class="col-md-4">
+              <div class="item_d rounded_s">
+                <a href="" style="text-decoration: none"> 
+                  <img src="img/nb-6.jpg" class="img_nb">
+                  <div class="name">Ноутбук Acer Aspire 5 A515-55G (NX.HZFEU.009)</div>
+                  <div class="stock">19 000₴</div>
+                  <div class="price">18 000₴</div>
+                  <div class="descr">Экран 15.6" IPS (1920x1080) / Intel Core i5-1035G1 (1.0 - 3.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / nVidia GeForce MX350, 2 ГБ</div>
+                </a>
+              </div> 
+            </div>             <div class="col-md-4">
+              <div class="item_d rounded_s">
+                <a href="" style="text-decoration: none"> 
+                  <img src="img/nb-1.png" class="img_nb">
+                  <div class="name">Ноутбук Acer Aspire 5 A515-55G (NX.HZFEU.009)</div>
+                  <div class="stock">19 000₴</div>
+                  <div class="price">18 000₴</div>
+                  <div class="descr">Экран 15.6" IPS (1920x1080) / Intel Core i5-1035G1 (1.0 - 3.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / nVidia GeForce MX350, 2 ГБ</div>
+                </a>
+              </div> 
+            </div>
+            <div class="col-md-4">
+              <div class="item_d rounded_s">
+                <a href="" style="text-decoration: none"> 
+                  <img src="img/nb-3.jpg" class="img_nb">
+                  <div class="name">Ноутбук Acer Aspire 5 A515-55G (NX.HZFEU.009)</div>
+                  <div class="stock">19 000₴</div>
+                  <div class="price">18 000₴</div>
+                  <div class="descr">Экран 15.6" IPS (1920x1080) / Intel Core i5-1035G1 (1.0 - 3.6 ГГц) / RAM 8 ГБ / SSD 512 ГБ / nVidia GeForce MX350, 2 ГБ</div>
+                </a>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="row">
+        <div class="col-md-4" style="padding-left:5%;">
+          <a href=""><img src="img/faceb.png" class="social-link"></a>
+          <a href=""><img src="img/youtube.png" class="social-link"></a>
+          <a href=""><img src="img/teleg.png" class="social-link"></a>
+          <a href=""><img src="img/viber.png" class="social-link"></a>
+          <a href=""><img src="img/inst.png" class="social-link"></a>
+        </div>
+        <div class="col-md-4" style="padding-left:5%; color: white; font-size: 18px;">
+          <strong>(095)-111-1111</strong> &nbsp&nbsp&nbsp&nbsp <strong>(066)-111-1111</strong><br>
+          Служба поддержки
+        </div>
+        <div class="col-md-4" style="color: white; font-size: 18px;">
+          &nbsp&nbsp <strong>notebook-sell@gmail.com</strong>
+        </div>
+      </div>  
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="menu.js"></script>
+  </body>
+</html>

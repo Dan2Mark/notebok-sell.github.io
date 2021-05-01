@@ -1,0 +1,424 @@
+body
+{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-image: url('img/bg.png');
+    -moz-background-size: cover; /* Firefox 3.6+ */
+    -webkit-background-size: cover; /* Safari 3.1+ è Chrome 4.0+ */
+    -o-background-size: cover; /* Opera 9.6+ */
+    background-size: cover; /* Ñîâðåìåííûå áðàóçåðû */
+}
+header {
+  width: 100%;
+  height: 120px;
+  margin: 0 auto;
+  background-image: url('img/head_bck.png');
+  background-repeat: no-repeat;
+  -moz-background-size: cover; /* Firefox 3.6+ */
+  -webkit-background-size: cover; /* Safari 3.1+ è Chrome 4.0+ */
+  -o-background-size: cover; /* Opera 9.6+ */
+  background-size: cover; /* Ñîâðåìåííûå áðàóçåðû */
+}
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  line-height: 1.6;
+  padding: 30px;
+  background-color: #2a384e;
+}
+.box-logo{
+  position: relative;
+  float: left;
+  width: 25%;     
+  height: 100px;
+  }
+.box-logo:before{
+  content: "";
+  display: block;           /* initial ratio of 1:1*/
+  height: 100px;
+}
+.logo {  
+  margin-left: 5%; 
+  position:  absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;  height: auto;
+  float: left;
+  padding: 0 15px;
+  margin-top: 20px;
+  height: 80px;
+}
+.logo-1 {
+  float: left;
+  display: none;
+  padding: 0 30px;
+  margin-top: 20px;
+  height: 80px;
+}
+.logo-2 {
+  float: left;
+  display: none;
+  padding-left: 30px;
+  margin-top: 20px;
+  height: 80px;
+}
+
+.search_s{
+  width: 40%;
+  height: 47px;
+  float: left;
+  margin-right: 30px;
+  margin-left: 10%;
+  margin-top: 42px;
+  border: none;
+  border-radius: 42px;
+  position: relative;
+}
+.search_s:after {content:""; clear:both; display:table}
+.search_s form {
+  width: 100%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.search_s input {
+  width: 100%;
+  height: 100%;
+  padding-left: 30px;
+  border: none;
+  border-radius: 42px;
+  background: #FFFFFF;
+  outline: none;
+  float: left;
+  position: relative;
+  transition: 1s linear;
+  font-weight:bold;
+}
+.search_s:hover {
+  margin-top: 40px;
+  padding-top: 1px; 
+  height: 50px;
+  box-shadow: -5px 5px 20px rgb(0,0,0,0.05)
+}
+.search_s button {
+  padding-right: 30px;
+  width: 25px;
+  height: 25px;
+  background: none;
+  border: none;
+  position: absolute;
+  margin-top: 10px;
+  right: 0;
+}
+.search_s button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
+
+.log {
+  float: right;
+  margin: 0;
+  padding-top: 50px;
+  padding-right: 7% ; 
+  list-style: none;
+  font-size: 20px;
+  font-family: Calibri;
+  font-weight: bold;
+  text-decoration: none; 
+  color: #252b35;
+  }
+.left-menu {
+  background: linear-gradient(270deg, #E4E4E4, #F3F3F3);
+}
+.left-menu a {
+  text-decoration: none; 
+  font-size: 18px; 
+  color: #4a5d7b;
+  font-family: Calibri;
+  font-weight: bold;
+  line-height: 1.5;
+  transition: 0.2s linear;
+}
+.left-menu a:hover {
+    font-size: 19px; 
+    line-height: 1.45;
+}
+.left-menu a.tit {
+  font-size: 20px; 
+  color: #252b35;
+  text-decoration: underline;
+}
+.left-menu a.tit:hover {
+    font-size: 21px;
+    line-height: 1.4; 
+} 
+.main-menu a.tit {
+  font-size: 30px; 
+  color: #6f7c88;
+  font-family: Calibri;
+  font-weight: bold;
+  line-height: 1.5;
+  transition: 0.1s linear;
+  text-decoration: underline;
+}
+.main-menu a.tit:hover {
+    font-size: 31px;
+    line-height: 1.45; 
+} 
+.main-menu
+{
+  padding: 30px;
+  background: linear-gradient(270deg, #EEEEEE, #F2F2F2);
+}
+.mar-0
+{
+  margin: 0px;
+}
+.item_s {
+  margin-bottom: 30px !important;  background-color: white;
+  box-shadow: 5px 5px 30px rgb(0,0,0,0.1);
+  transition: 0.1s linear;
+}
+.item_s:hover {
+  background-color: white;
+  box-shadow: 5px 5px 30px rgb(0,0,0,0.2);
+}
+.item_d {
+  margin-bottom: 30px !important;
+  padding: 10px;
+  height: 96%;
+  background-color: white;
+  box-shadow: 5px 5px 30px rgb(0,0,0,0.1);
+  transition: 0.1s linear;
+}
+.item_d:hover {
+  background-color: white;
+  box-shadow: 5px 5px 30px rgb(0,0,0,0.2);
+}
+.img_nb {
+  width: 100%;
+  padding: 15px;
+}
+.name {
+  font-size: 24px; 
+  color: black;
+  font-family: Calibri;
+}
+.stock {
+  margin: 10px;
+  font-size: 24px; 
+  color: #6f7c88;
+  font-family: Calibri;
+  text-decoration: line-through;
+}
+.price {
+  display: block;
+  font-size: 48px; 
+  color: #3d6b96;
+  font-family: Calibri;
+}
+.descr {
+  font-size: 18px; 
+  color: #6f7c88;
+  font-family: Calibri;
+}
+.other {
+  font-size: 48px; 
+  color: #3d6b96;
+  font-family: Calibri;
+}
+.shadow {
+    box-shadow: 5px 5px 20px rgb(0,0,0,0.3);
+}
+.rounded_s {
+  border-radius: 25px;
+}
+.social-link{
+  width: 7%;
+  margin: 1%;
+}
+
+/* Меню боковой панели */
+.sidepanel {
+  z-index: 99;
+  height: 100%; /* Укажите высоту */
+  width: 0; /* 0 ширина-измените это с помощью JavaScript */
+  position: fixed; /* Оставаться на месте */
+  z-index: 1; /* Оставайтесь на вершине */
+  top: 0;
+  left: 0;
+  background: linear-gradient(270deg, rgb(10,10,10,0.8), rgb(10,10,10));
+   /* Черный */
+  overflow-x: hidden; /* Отключить горизонтальную прокрутку */
+  padding-top: 60px; /* Поместите содержимое 60px сверху */
+  transition: 0.5s; /* 0.5 секунды эффект перехода для скольжения в боковой панели */
+  box-shadow: 5px 5px 20px rgb(0,0,0,0.3);
+}
+
+/* Боковая панель ссылок */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+.sidepanel .tit {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+/* При наведении курсора мыши на навигационные ссылки измените их цвет */
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+/* Положение и стиль кнопки закрытия (верхний правый угол) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Стиль кнопка, которая используется для открытия боковой панели */
+.openbtn {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  float: left;
+  margin-top: 30px; 
+  font-size: 30px;
+  cursor: pointer;
+  color: #555;
+  padding: 10px 15px;
+  border: none;
+  outline:none;
+}
+.openbtn:hover {
+  color: #777;
+}
+.cont_check {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.cont_check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  border-radius: 3px;
+  margin: 5px;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #fff;
+  border: 1px;
+  border-color: #000
+}
+/* On mouse-over, add a grey background color */
+.cont_check:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.cont_check input:checked ~ .checkmark {
+  background-color: #5b7d9f;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.cont_check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.cont_check .checkmark:after {
+  left: 7px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.note-block {
+  margin-left: 3%;
+  margin-right: 3%;
+  padding: 30px;
+  background-color: white;
+  border-radius: 20px;
+}
+.note-img {
+  margin: auto;
+  width: 80%;
+  height: auto;
+  display: block;
+}
+.buy-btn {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 70%;
+  height: 50px;
+  background: linear-gradient(90deg, #8bb5cd, #88a3c0);
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Calibri;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.1);
+  transition: 0.1s linear;
+}
+.buy-btn:hover {
+width: 71%;
+box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.2);
+}
+.describe {
+  text-decoration: none; 
+  font-size: 20px; 
+  color: #4a5d7b;
+  font-family: Calibri;
+  line-height: 1.5;
+  transition: 0.2s linear;
+}
+.describe h3 {
+  font-weight: bold;
+  font-size: 22px; 
+  color: #252b35;
+}
+.right-info {
+  padding-top: 5%;
+}
+
